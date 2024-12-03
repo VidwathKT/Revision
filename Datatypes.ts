@@ -79,10 +79,10 @@ if (typeof unsure === "number") {
 }
 
 // BigInt
-let bigNumber: bigint = 1234567890123456789012345678901234567890n; // BigInt for very large numbers
+// let bigNumber: bigint = BigInt("1234567890123456789012345678901234567890"); // BigInt for very large numbers
 
-// Symbol
-let uniqueSymbol: symbol = Symbol("unique"); // Symbol for creating unique identifiers
+// // Symbol
+// let uniqueSymbol: symbol = Symbol("unique"); // Symbol for creating unique identifiers
 
 // Generics
 function identity<T>(value: T): T {
@@ -90,3 +90,5 @@ function identity<T>(value: T): T {
     return value;
 }
 let result = identity<number>(5); // Using generics with a specific type
+//ternary Operator
+console.log(10>20?1:2);
