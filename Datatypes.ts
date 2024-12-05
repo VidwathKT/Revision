@@ -6,7 +6,7 @@ let nothing: null = null;           // A variable with null value
 let notDefined: undefined = undefined; // A variable with undefined value
 
 // Arrays
-let numbers: number[] = [1, 2, 3, 4]; // Array of numbers
+export let numbers: number[] = [1, 2, 3, 4]; // Array of numbers
 let strings: Array<string> = ["a", "b", "c"]; // Array of strings using generic syntax
 
 // Tuple
